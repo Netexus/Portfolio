@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+  
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title> Personal Portfolio</title>
+  <link rel="stylesheet" href="styles.css"/>
+</head>
+
+<body>
+
+  <header>
+    <h1>Lucho</h1>
+    <p class="subtitulo">Web Developer | Angular · Python</p>
+    <nav>
+      <a href="#about">About</a>
+      <a href="#skills">Skills</a>
+      <a href="#projects">Projects</a>
+      <a href="#testimonials">Testimonials</a>
+      <a href="#contact">Contact</a>
+      <button onclick="document.body.classList.toggle('dark')" class="btn">
+        Dark Mode
+      </button>
+    </nav>
+  </header>
+
+  <main>
+    <section id="about">
+      <h2>About Me</h2>
+      <p>I’m a developer with experience in modern technologies such as Angular and Python. Passionate about clean code, efficient solutions, and continuous learning.</p>
+    </section>
+
+    <section id="skills">
+      <h2>Skills</h2>
+      <ul class="skills">
+        <li>⚡ Angular</li>
+        <li>🐍 Python</li>
+        <li>🎨 HTML & CSS</li>
+        <li>🔧 Git & GitHub</li>
+      </ul>
+    </section>
+
+    <section>
+      <table>
+        <h2>Projects</h2>
+        <tr>
+          <th>Project</th>
+          <th>Technology used</th>
+          <th>Link</th>
+        </tr>
+        <tr> 
+            <td>
+                <h3>Inventory System</h3>
+                <p>Python console app to manage books using basic data structures.</p>
+            </td>
+            <td>
+                <img src="https://img.icons8.com/color/48/000000/python--v1.png" alt="Python icon"/>
+                <img src="https://img.icons8.com/color/48/000000/git.png" alt="Git icon"/>
+            </td>
+            <td>
+                <a href="" target="_blank">
+                  <img src="https://img.icons8.com/color/48/000000/github--v1.png" alt="GitHub icon"/>
+            </td>
+        </tr>
+      </table>
+    </section>
+    
+
+    <!-- <section id="projects">
+      <h2>Projects</h2>
+      <div class="proyecto"></div>
+        <h3>Inventory System</h3>
+        <p>Python console app to manage books using basic data structures.</p>
+      </div>
+      <div class="proyecto">
+        <h3>Angular Landing Page</h3>
+        <p>Responsive web page built with Angular 19 and Tailwind CSS.</p>
+      </div>
+      <div class="proyecto">
+        <h3>Sales Dashboard</h3>
+        <p>Sales data visualization using Java Spring Boot and MySQL.</p>
+      </div>
+    </section> -->
+
+    <section id="contact">
+      <h2>Contact</h2>
+      <p>If you want to work together or have any questions, feel free to reach out!</p>
+      <form>
+        <input type="text" name="name" placeholder="Your Name" required />
+        <input type="email" name="email" placeholder="Your Email" required />
+        <textarea name="message" rows="5" placeholder="Your Message"></textarea>
+        <button type="submit">Send</button>
+      <!-- <p>Want to work together? Email me at <a href="mailto:lucho@example.com">lufemarc@gmail.com</a></p> -->
+      <div class="redes">
+        <a href="#" class="btn">🌐
