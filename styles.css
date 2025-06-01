@@ -178,6 +178,7 @@ a:hover {
   gap: 1rem;
   flex-wrap: wrap;
   justify-content: center;
+  gap: 1.2rem;
 }
 
 .btn {
@@ -241,7 +242,6 @@ footer {
 }
 
 .rotate-section {
-  background-color: var(--color-primary);
   border-radius: 50%;
   transform: rotate(-2deg);
 }
