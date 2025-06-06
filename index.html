@@ -1,42 +1,42 @@
 <!DOCTYPE html>
 <html lang="en">
-  
+
 <head>
   <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title> Personal Portfolio</title>
-  <link rel="stylesheet" href="styles.css"/>
+  <link rel="stylesheet" href="styles.css" />
 </head>
 
-  <header>
-    <h1>Lucho</h1>
-    <p class="subtitulo">Web Developer | Angular · Python</p>
-    <nav>
-      <a href="#">Home</a>
-      <a href="#about">About</a>
-      <a href="#skills">Skills</a>
-      <a href="#projects">Projects</a>
-      <a href="#contact">Contact</a>
-      <button onclick="document.body.classList.toggle('dark')" class="btn">
-        Dark Mode
-      </button>
-    </nav>
+<header>
+  <h1>Lucho</h1>
+  <p class="subtitulo">Web Developer | Angular · Python</p>
+  <nav>
+    <a href="#">Home</a>
+    <a href="#about">About</a>
+    <a href="#skills">Skills</a>
+    <a href="#projects">Projects</a>
+    <a href="#contact">Contact</a>
+    <button onclick="document.body.classList.toggle('dark')" class="btn">
+      Dark Mode
+    </button>
+  </nav>
 
   <nav class="bottom-nav">
     <a href="#" class="nav-item">
       <i class="fas fa-home"></i><span>Home</span>
-    <a href="#about" class="nav-item"> 
-      <i class="fas fa-home"></i><span>About</span>
-    </a>
-    <a href="#skills" class="nav-item">
-      <i class="fas fa-utensils"></i><span>Skills</span>
-    </a>
-    <a href="#projects" class="nav-item">
-      <i class="fas fa-phone-alt"></i><span>Projects</span>
-    </a>
-        <a href="#contact" class="nav-item">
-      <i class="fas fa-phone-alt"></i><span>Contact</span>
-    </a>
+      <a href="#about" class="nav-item">
+        <i class="fas fa-home"></i><span>About</span>
+      </a>
+      <a href="#skills" class="nav-item">
+        <i class="fas fa-utensils"></i><span>Skills</span>
+      </a>
+      <a href="#projects" class="nav-item">
+        <i class="fas fa-phone-alt"></i><span>Projects</span>
+      </a>
+      <a href="#contact" class="nav-item">
+        <i class="fas fa-phone-alt"></i><span>Contact</span>
+      </a>
   </nav>
 </header>
 
@@ -45,7 +45,8 @@
   <main>
     <section id="about">
       <h2>About Me</h2>
-      <p>I’m a developer with experience in modern technologies such as Angular and Python. Passionate about clean code, efficient solutions, and continuous learning.</p>
+      <p>I’m a developer with experience in modern technologies such as Angular and Python. Passionate about clean code,
+        efficient solutions, and continuous learning.</p>
     </section>
 
     <section id="skills">
@@ -56,52 +57,77 @@
         <li>🎨 HTML & CSS</li>
         <li>🔧 Git & GitHub</li>
       </ul>
-    </section>   
+    </section>
     <h2>Projects</h2>
-    <section id="projects">  
-      <div class="proyecto">
-        <h3>Inventory System</h3>
-        <p>Python console app to manage books using basic data structures.</p>
+    <section id="projects">
+
+      <div class="project-card">
+        <h3>Caudo Restaurant</h3>
+        <p> Little project that shows information about a restaurant</p>
+        <div>
+          <iframe class="preview" src="https://netexus.github.io/CaudoRestaurant/"></iframe>
+        </div>
+        <p>
+          👉 <a href="https://netexus.github.io/CaudoRestaurant/" target="_blank" rel="noopener">See it in GitHub
+            Pages</a>
+        </p>
       </div>
-      <div class="proyecto">
-        <h3>Angular Landing Page</h3>
-        <p>Responsive web page built with Angular 19 and Tailwind CSS.</p>
+
+      <div class="project-card">
+        <h3>Fair project</h3>
+        <p> Little project that shows information about fair</p>
+        <div>
+          <iframe class="preview" src="https://netexus.github.io/Feria/"></iframe>
+        </div>
+        <p>
+          👉 <a href="https://netexus.github.io/Feria/" target="_blank" rel="noopener">See it in GitHub
+            Pages</a>
+        </p>
       </div>
-      <div class="proyecto">
-        <h3>Sales Dashboard</h3>
-        <p>Sales data visualization using Java Spring Boot and MySQL.</p>
+
+            <div class="project-card">
+        <h3>Fair project</h3>
+        <p> Little project that shows places I would love to go and why</p>
+        <div>
+          <iframe class="preview" src="https://netexus.github.io/Vacations/"></iframe>
+        </div>
+        <p>
+          👉 <a href="https://netexus.github.io/Vacations/" target="_blank" rel="noopener">See it in GitHub
+            Pages</a>
+        </p>
       </div>
+
     </section>
 
-<section id="contact">
-  <h2>Contact</h2>
-  <p>If you want to work together or have any questions, feel free to reach out!</p>
-  <form>
-    <label for="name">Your Name</label>
-    <input type="text" id="name" name="name" placeholder="Your Name" required />
+    <section id="contact">
+      <h2>Contact</h2>
+      <p>If you want to work together or have any questions, feel free to reach out!</p>
+      <form>
+        <label for="name">Your Name</label>
+        <input type="text" id="name" name="name" placeholder="Your Name" required />
 
-    <label for="email">Your Email</label>
-    <input type="email" id="email" name="email" placeholder="Your Email" required />
+        <label for="email">Your Email</label>
+        <input type="email" id="email" name="email" placeholder="Your Email" required />
 
-    <label for="message">Your Message</label>
-    <textarea id="message" name="message" rows="5" placeholder="Your Message" required></textarea>
-      <button type="submit" class="rotate-section">Send</button>
-  </form>
+        <label for="message">Your Message</label>
+        <textarea id="message" name="message" rows="5" placeholder="Your Message" required></textarea>
+        <button type="submit" class="rotate-section">Send</button>
+      </form>
 
-    <section class="redes">
+      <section class="redes">
         <a href="https://www.linkedin.com/in/luis-martínez-3a9881343/" target="_blank">
-            <img src="./assets/redes/LinkedIn.svg" alt="LinkedIn logo" width="35" height="35">
+          <img src="./assets/redes/LinkedIn.svg" alt="LinkedIn logo" width="35" height="35">
         </a>
         <a href="https://github.com/Netexus" target="_blank">
-            <img src="./assets/redes/GitHub.svg" alt="GitHub logo" width="35" height="35">
+          <img src="./assets/redes/GitHub.svg" alt="GitHub logo" width="35" height="35">
         </a>
         <a href="mailto:lufemarc@gmail.com" target="_blank">
-            <img src="./assets/redes/gmail.svg" alt="Gmail logo" width="35" height="35">
+          <img src="./assets/redes/gmail.svg" alt="Gmail logo" width="35" height="35">
         </a>
+      </section>
     </section>
-</section>
-<footer>
-  <p>© 2025 Lucho - All rights reserved.</p>
-</footer>
+    <footer>
+      <p>© 2025 Lucho - All rights reserved.</p>
+    </footer>
 
 </body>
